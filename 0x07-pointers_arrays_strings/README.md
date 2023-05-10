@@ -1,0 +1,21 @@
+C - Pointer to Pointer
+C – Pointer to Pointer with example
+Multi-dimensional Arrays in C
+Two dimensional (2D) arrays in C programming with example
+Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
+The _memcpy() function copies n bytes from memory area src to memory area dest
+Returns a pointer to dest
+Prototype: char *_strchr(char *s, char c);
+Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
+FYI: The standard library provides a similar function: strchr. Run man strchr to learn more.
+Write a function that gets the length of a prefix substring.
+
+Prototype: unsigned int _strspn(char *s, char *accept);
+Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+FYI: The standard library provides a similar function: strspn. Run man strspn to learn more.
+Prototype: char *_strpbrk(char *s, char *accept);
+The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
+Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+Prototype: char *_strstr(char *haystack, char *needle);
+The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
+Returns a pointer to the beginning of the located substring, or NULL if the substring is not found
